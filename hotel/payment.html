@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>payment page</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+        background-color: cornflowerblue;
+        text-align: center;
+        font-size: large;
+        margin: 100px;
+        }
+        h1{
+            color: rgb(255, 115, 0);
+        }
+        button{
+            cursor: pointer;
+            background-color: chartreuse;
+            color:crimson ;
+            border: 2px solid rgb(255, 0, 179);
+            border-radius: 50%;
+            height:30px ;
+            width: 70px;
+        }
+        input{
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <i><h1>payment form</h1> <br> <br> </i>
+    <div class="container">
+        <form action="pay.php" method="post">
+      <big>  name  <input type="text" name="name" placeholder="enter your name"> <br> <br>
+        phone  <input type="text" name="phone" placeholder="enter your phone"> <br> <br>
+        amount  <input type="text" name="amount" placeholder="enter your amount"> <br> <br>
+        card_number  <input type="text" name="card_number" placeholder="enter your card_number"> <br> <br>
+        expiry_date  <input type="text" name="expiry_date" placeholder="enter your expiry_date"> <br> <br>
+        cvv  <input type="text" name="cvv" placeholder="enter your cvv"> </big> <br> <br> 
+        <button>submit</button>
+        </form>
+    </div>
+</body>
+</html>

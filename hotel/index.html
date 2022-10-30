@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sm hotel</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        h1{
+            background-color: black;
+            color: white;
+        }
+        ul{
+            background-color: black;
+            color: white;
+             display: flex; 
+            text-decoration: none;
+            
+        }
+        button{
+            background-color: black;
+            color: white;
+            display: inline;
+            padding: 10px;
+            text-decoration: none;
+            cursor: pointer;
+            text-decoration: none;
+        }
+        a{
+          text-decoration: none;
+        }
+        li{
+            display: inline;
+            padding: 10px;
+            text-decoration: none;
+        }
+       ul img{
+            height: 50px;
+            padding: 10px;
+            border-radius: 50%;
+            animation: circleAnimate 1s ease-in infinite ;
+        }
+        @keyframes circleAnimate {
+            0% {
+                transform: rotate(0deg);
+            }
+            100%{
+                transform: rotate(360deg);
+            }
+        }
+       h1{
+           animation: text1 ease-out infinite 10s;
+       }
+       @keyframes text1{
+        0% {
+          color: rgb(248, 248, 248);
+        }
+        10% {
+          color: rgb(139, 0, 0);
+          /* letter-spacing: 5px; */
+        }
+        20% {
+          color: rgb(255, 157, 0);
+          /* letter-spacing: 2px */
+        } 
+        30% {
+          color: rgb(137, 139, 0);
+          /* letter-spacing: 0px; */
+        }
+        40% {
+          color: rgb(45, 255, 8);
+          /* letter-spacing: 2px; */
+        }
+        50% {
+          color: rgb(10, 77, 2);
+          /* letter-spacing: 5px; */
+        }
+        60% {
+          color: rgb(5, 170, 156);
+          /* letter-spacing: 2px; */
+        }
+        70% {
+          color: rgb(0, 25, 139);
+          /* letter-spacing: 0px; */
+        }
+        80% {
+          color: rgb(162, 0, 255);
+          /* letter-spacing: 2px; */
+        }
+        90% {
+          color: rgb(255, 0, 221);
+          /* letter-spacing: 5px; */
+        }
+        100%{
+          color: rgb(255, 0, 0);
+          /* letter-spacing: 2px; */
+        }
+      }
+     .container2 img{
+          margin: 20px;
+          padding: 20px;
+          animation: widthAnimate 3s  ease-out  1 ;
+      }
+      @keyframes widthAnimate{
+          0%{
+            transform: scale(0.0075);
+           opacity: 1;
+        }
+       /* 50%{
+            opacity: 0;
+        }  */
+        100%{
+            transform: scale(1.1);
+           opacity: 1;
+        }
+      }
+      footer{
+          padding: 10px; 
+          font-size: large;
+      }
+    </style>
+</head>
+<body>
+    <center><big><i><h1>SM Hotel</h1></i></big></center>
+    <div class="container">
+        <ul>
+            <img src="img/circle.jfif" alt="">
+            <li>
+                <a href="log.html">
+                     <button>Login</button></a>
+            </li>
+            <li>
+              <a href="reg.html">
+                  <button>Register</button>
+              </a>
+                <li>
+                    <a href="about.html"> 
+                        <button>About</button>
+                    </a>
+                </li>
+                <li>
+                    <a href="booking.html">
+                        <button>Booking</button>
+                    </a>
+                </li>
+                <li>
+                   <a href="contact.html">
+                       <button>Contact</button>
+                   </a>
+                </li>
+                <li>
+                   <a href="payment.html">
+                     <button>Payment</button>
+                   </a>
+                </li>
+        </ul>
+        </div> <br> <br>
+        <div class="container2">
+            <center> <img src="img/kht.jfif" height="400px" width="1100px"> </center> 
+          
+        </div>
+    <footer>
+     <center> <b>  <p>copyright &copy SM</p> </b> </center> 
+    </footer>
+          
+</body>
+</html>
